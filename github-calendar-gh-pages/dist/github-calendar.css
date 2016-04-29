@@ -102,8 +102,7 @@
 }
 
 .left.text-muted {
-    float: left;
-    margin-left: 9px;
+    text-align:center;
     color: #767676;
 }
 .left.text-muted a {
