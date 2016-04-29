@@ -42,4 +42,4 @@ module.exports = function GitHubCalendar (container, username, options) {
 
 /*----calendar call ------ */
 
-GitHubCalendar(".calendar", "IonicaBizau");
+GitHubCalendar(".calendar", "jakep84");
