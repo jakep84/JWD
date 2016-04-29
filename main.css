@@ -211,7 +211,7 @@ p {
 }
 
 @media
-    only screen and ( max-width: 415px) {
+    only screen and ( max-width: 805px) {
         body {
             overflow:hidden;
 
@@ -224,4 +224,41 @@ p {
             margin: 1.5% 12px;
             text-align: right;
         }
+}
+@media only screen and (max-width:650px) {
+        #jumboHead {
+        margin-top:19%;
+    }
+}
+@media only screen and (max-width:322px) {
+        body {
+            overflow:hidden;
+
+        }
+        #jumboHead {
+            font-size:large;
+            margin-top: 53%;
+        }
+        .footLogo {
+            margin: 1.5% 12px;
+            text-align: right;
+        }
+    }
+@media only screen and (max-height:242px) {
+        #jumboHead {
+            margin-top: 30%;
+            font-size:small;
+        }
+    .navbar-brand {
+        font-size: small;
+        margin-left:6%;
+    }
+    .footLogo {
+        font-size:smaller;
+    }
+    .footer {
+        height:39px;
+
+    }
+}
 } 
