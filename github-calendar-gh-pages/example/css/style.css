@@ -30,8 +30,15 @@ pre {
     color: #373727;
 }
 
-.calendar {
-    margin-bottom: 10px;
+
+    .calendar {
+    width: 690px;
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 120px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 p {
